@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-light-gray: #dfdfdf;
+
+  --gradient-start: #ffc593;
+  --gradient-middle: #bc7198;
+  --gradient-end: #5a77ff;
+}
+
+p {
+  @apply text-[0.9375rem] leading-[1.5625rem];
+}
